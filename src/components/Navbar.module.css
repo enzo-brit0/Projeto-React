@@ -1,0 +1,57 @@
+/* src/components/Navbar.module.css */
+
+.nav {
+    /* Fundo escuro com gradiente suave */
+    background: rgba(13, 17, 23, 0.95); /* Fundo quase preto, ligeiramente transparente */
+    background-image: linear-gradient(to right, #0d1117, #161b22);
+    
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    
+    /* Efeito flutuante e de profundidade */
+    box-shadow: 0 4px 15px rgba(0, 191, 255, 0.2); 
+    border-bottom: 1px solid #00BFFF; /* Linha de destaque fina */
+    
+    position: fixed; /* Essencial para que a navbar seja estática (fixa no topo) */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que fique acima de todo o conteúdo */
+}
+
+.link {
+    margin: 0 25px; /* Mais espaço entre os links */
+    color: #c9d1d9; /* Cor base clara e suave */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: #fff;
+    /* Destaque suave com fundo */
+    background-color: rgba(0, 191, 255, 0.1); 
+    /* Borda inferior sutilmente iluminada */
+    border-bottom: 2px solid #00BFFF; 
+}
+
+/* Responsividade Aprimorada */
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        padding: 10px 0;
+        align-items: center;
+    }
+    .link {
+        margin: 5px 0;
+        width: 80%; /* Ocupa mais espaço na vertical */
+        text-align: center;
+        border-bottom: 1px solid rgba(0, 191, 255, 0.1);
+    }
+    .link:hover {
+         border-bottom: 2px solid #00BFFF;
+    }
+}
