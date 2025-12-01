@@ -1,11 +1,10 @@
-// src/pages/Home.js
+
 import React from 'react';
-import styles from './Home.module.css'; // Importa o CSS Module
+import styles from './Home.module.css';
 import CardInfo from '../components/CardInfo'; 
 
 function Home() {
   return (
-    // Usa a classe principal do módulo
     <div className={styles.homeContainer}> 
       <h1 className={styles.mainTitle}>Conheça Nosso Sistema Solar ☀️</h1>
       <p className={styles.leadText}>
