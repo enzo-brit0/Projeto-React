@@ -1,4 +1,4 @@
-/* src/pages/Contato.module.css */
+
 
 .contatoContainer {
     padding: 40px 20px;
@@ -45,7 +45,7 @@
     border-radius: 5px;
     background: #0d1117;
     color: #f0f0f0;
-    box-sizing: border-box; /* Inclui padding e border na largura total */
+    box-sizing: border-box; 
 }
 
 .textarea {
