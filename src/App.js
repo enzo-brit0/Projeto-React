@@ -12,8 +12,8 @@ import Contato from './pages/Contato';
 
 function App() {
   const contentStyle = {
-    paddingBottom: '80px', // Espaço suficiente para o Footer
-    paddingTop: '65px',   // Espaço suficiente para o Navbar
+    paddingBottom: '80px',
+    paddingTop: '65px',  
     minHeight: '100vh',
     boxSizing: 'border-box',
   }
