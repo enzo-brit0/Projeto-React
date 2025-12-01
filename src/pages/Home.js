@@ -11,7 +11,7 @@ function Home() {
         Uma jornada interplanetária para descobrir os corpos celestes que orbitam nossa estrela.
       </p>
 
-      {/* Usa a classe para organizar os cartões */}
+      {}
       <div className={styles.cardGrid}> 
         <CardInfo 
           title="O Sol"
