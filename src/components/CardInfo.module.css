@@ -1,4 +1,4 @@
-/* src/components/CardInfo.module.css */
+
 
 .card {
     background: #0d1117; /* Fundo muito escuro */
@@ -33,7 +33,6 @@
     font-size: 0.9em;
 }
 
-/* Responsividade para garantir que em telas menores os cartões se ajustem */
 @media (max-width: 600px) {
     .card {
         max-width: 90%;
