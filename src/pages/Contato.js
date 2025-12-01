@@ -5,7 +5,7 @@ function Contato() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert('Mensagem enviada! Agradecemos seu interesse no cosmos.');
-    // Aqui você adicionaria a lógica para enviar os dados, se fosse um projeto full-stack
+
   };
 
   return (
