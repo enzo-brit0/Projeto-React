@@ -36,7 +36,6 @@
     border-bottom: 2px solid #00BFFF; 
 }
 
-/* Responsividade Aprimorada */
 @media (max-width: 600px) {
     .nav {
         flex-direction: column;
