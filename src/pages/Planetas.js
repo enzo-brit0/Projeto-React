@@ -13,7 +13,7 @@ const planetasData = [
 function Planetas() {
   return (
     <div className={styles.pageContainer}>
-      <h2 className={styles.title}>Os Oito Planetas do Sistema Solar</h2>
+      <h2 className={styles.title}>Alguns dos Planetas do Sistema Solar</h2>
       <ul className={styles.planetsList}>
         {planetasData.map((planeta, index) => (
           <li key={index} className={styles.planetItem}>
